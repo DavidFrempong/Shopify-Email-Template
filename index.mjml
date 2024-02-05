@@ -59,7 +59,7 @@
       }
 
       .footer {
-        background-image: url('http://127.0.0.1:5500/assets/bg-colors.png');
+        background-image: url('https://shopify-email-template.vercel.app/assets/bg-colors.png');
         background-size: 600px;
       }
 
@@ -93,7 +93,7 @@
       <!-- Image with text  -->
       <mj-section>
         <mj-column>
-          <mj-image src="http://127.0.0.1:5500/assets/image.jpg" alt="" href="https://shopify.com/blog" padding-bottom="20px" />
+          <mj-image src="https://shopify-email-template.vercel.app/assets/image.jpg" alt="" href="https://shopify.com/blog" padding-bottom="20px" />
         </mj-column>
         <mj-column>
           <mj-text color="#004c3f" font-size="24px" font-weight="700" padding-bottom="20px">
@@ -123,10 +123,10 @@
       <mj-section padding="0px" background-color="#ffffff">
         <mj-group>
           <mj-column padding="0">
-            <mj-image padding="0 10px" align="right" href="https://www.apple.com" src="http://127.0.0.1:5500/assets/appstore.png" alt="" width="150px" height="45px" />
+            <mj-image padding="0 10px" align="right" href="https://www.apple.com" src="https://shopify-email-template.vercel.app/assets/appstore.png" alt="" width="150px" height="45px" />
           </mj-column>
           <mj-column padding="0">
-            <mj-image padding="0 10px" align="left" href="https://www.android.com" src="http://127.0.0.1:5500/assets/android.png" alt="" width="150px" height="45px" />
+            <mj-image padding="0 10px" align="left" href="https://www.android.com" src="https://shopify-email-template.vercel.app/assets/android.png" alt="" width="150px" height="45px" />
           </mj-column>
         </mj-group>
       </mj-section>

@@ -1,6 +1,6 @@
     <mj-section css-class="header section-padding">
       <mj-column>
-        <mj-image src="http://127.0.0.1:5500/assets/logo.png" alt="Shopify Logo." href="https://shopify.com" padding="4px 10px" align="left" css-class="logo"/>
+        <mj-image src="https://shopify-email-template.vercel.app/assets/logo.png" alt="Shopify Logo." href="https://shopify.com" padding="4px 10px" align="left" css-class="logo"/>
       </mj-column>
             <mj-column>
         <mj-text color="#ffffff" font-size="12px" font-weight="400" css-class="nav-links">
