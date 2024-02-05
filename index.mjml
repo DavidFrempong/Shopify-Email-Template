@@ -1,0 +1,138 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .footer-links {
+        color: #0a0a0a;
+        text-decoration: none;
+      }
+
+      .footer-links:hover {
+        color: #004c3f;
+        text-decoration: underline;
+      }
+
+      .logo{
+        width: 121px;
+      }
+
+       @media (max-width: 500px) {
+        .nav-links {
+          display: none;
+        }
+
+        .header {
+          <!-- background-color: #2d2d2d !important; -->
+        }
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .header {
+        background-color: #004c3f;
+      }
+
+      .section-padding {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      .link-color {
+        color: #004c3f;
+        text-decoration: none;
+      }
+
+      .link-color.action {
+        color: #008060;
+      }
+
+
+      .link-color.action.header{
+        color: #ffffff;
+      }
+
+      .icons-size {
+        max-width: 300px;
+        padding: 40px 0 30px;
+      }
+
+      .footer {
+        background-image: url('http://127.0.0.1:5500/assets/bg-colors.png');
+        background-size: 600px;
+      }
+
+      .content-background {
+        background-color: #ffffff;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#f2f2f2">
+    <mj-wrapper css-class="content-background" padding="0">
+
+      <!-- Header -->
+      <mj-include path="./components/header.mjml" />
+
+      <!-- Top section -->
+      <mj-section>
+        <mj-column padding="20px 20px 20px 30px">
+          <mj-text css-class="header-title" font-size="60px" color="#004c3f" font-weight="700">
+            Making Commerce Better.`
+          </mj-text>
+          <mj-text css-class="header-title" font-size="20px" color="#004c3f" font-weight="500">
+            Jan 10, 2024
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Three line divider -->
+      <mj-include path="./components/three-lines.mjml" />
+
+      <!-- Image with text  -->
+      <mj-section>
+        <mj-column>
+          <mj-image src="http://127.0.0.1:5500/assets/image.jpg" alt="" href="https://shopify.com/blog" padding-bottom="20px" />
+        </mj-column>
+        <mj-column>
+          <mj-text color="#004c3f" font-size="24px" font-weight="700" padding-bottom="20px">
+            <a href="https://shopify.com/blog" class="link-color">Find more ways to sell with preorders </a>
+          </mj-text>
+          <mj-text color="#004c3f" font-size="15px" font-weight="500" padding-bottom="20px" line-height="21px">
+            <a href="https://shopify.com/blog" class="link-color">We've gone and made selling even easier, with pre-orders. Give your customers the ability to pay now, pay a deposit, or pay later, and in the process, increase your sales, forecast demand, and create buzz for your products. </a>
+          </mj-text>
+          <mj-text color="#004c3f" font-size="12px" font-weight="700" padding-bottom="20px" text-decoration="underline">
+            <a href="https://shopify.com/blog" class="link-color action" color="#008060">Learn more &#8594;</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Three line divider -->
+      <mj-include path="./components/three-lines.mjml" />
+
+      <!-- App icons -->
+      <mj-section padding="40px 40px 20px 40px">
+        <mj-column>
+          <mj-text align="center" font-size="20px" font-weight="700" line-height="25px" color="#212b35">
+            Running a business like yours isn't a desk job. Keep it from becoming one with the Shopify app.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0px" background-color="#ffffff">
+        <mj-group>
+          <mj-column padding="0">
+            <mj-image padding="0 10px" align="right" href="https://www.apple.com" src="http://127.0.0.1:5500/assets/appstore.png" alt="" width="150px" height="45px" />
+          </mj-column>
+          <mj-column padding="0">
+            <mj-image padding="0 10px" align="left" href="https://www.android.com" src="http://127.0.0.1:5500/assets/android.png" alt="" width="150px" height="45px" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Footer -->
+      <mj-include path="./components/footer.mjml" />
+    </mj-wrapper>
+  </mj-body>
+</mjml>

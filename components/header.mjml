@@ -1,0 +1,25 @@
+    <mj-section css-class="header section-padding">
+      <mj-column>
+        <mj-image src="http://127.0.0.1:5500/assets/logo.png" alt="Shopify Logo." href="https://shopify.com" padding="4px 10px" align="left" css-class="logo"/>
+      </mj-column>
+            <mj-column>
+        <mj-text color="#ffffff" font-size="12px" font-weight="400" css-class="nav-links">
+          <a href="https://www.shopify.com/start" class="link-color action header" color="#ffffff">Solution</a>
+        </mj-text>
+      </mj-column>
+        <mj-column>
+        <mj-text color="#ffffff" font-size="12px" font-weight="400" css-class="nav-links">
+          <a href="https://www.shopify.com/pricing" class="link-color action header" color="#ffffff">Pricing</a>
+        </mj-text>
+      </mj-column>
+        <mj-column>
+        <mj-text color="#ffffff" font-size="12px" font-weight="400" css-class="nav-links">
+          <a href="https://www.shopify.com/blog/what-is-shopify" class="link-color action header" color="#ffffff">Resources</a>
+        </mj-text>
+      </mj-column>
+        <mj-column>
+        <mj-text color="#ffffff" font-size="12px" font-weight="400" css-class="nav-links">
+          <a href="https://www.shopify.com/editions/winter2024" class="link-color action header" color="#ffffff">Winter 24'</a>
+        </mj-text>
+      </mj-column>
+    </mj-section> 
