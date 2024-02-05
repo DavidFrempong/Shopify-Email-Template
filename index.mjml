@@ -79,7 +79,7 @@
       <mj-section>
         <mj-column padding="20px 20px 20px 30px">
           <mj-text css-class="header-title" font-size="60px" color="#004c3f" font-weight="700">
-            Making Commerce Better.`
+            Making Commerce Better.
           </mj-text>
           <mj-text css-class="header-title" font-size="20px" color="#004c3f" font-weight="500">
             Jan 10, 2024
